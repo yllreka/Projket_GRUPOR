@@ -1,0 +1,633 @@
+
+body{
+	margin: 0px;
+	background-color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+#a1{
+	height: 73px;
+	width: 100%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    margin:0px;
+
+}
+#menuEL{
+	display: flex;
+	list-style-type: none;
+	font-family: 'Poppins', sans-serif;
+    margin-left: 350px;
+    margin-top: 25px;
+   
+
+      
+}
+#menuEL li{
+	padding-left: 35px;
+
+}
+#menuEL a{
+	text-decoration: none;
+	color: black;
+}
+#logo{
+	margin-left: 130px;
+	
+	padding-top: 10px;
+}
+#slide4{
+	width: 100%;
+	height: 750px;
+}
+
+#menuEL a:hover {
+  
+
+}
+.sctitle{
+	text-align: center;
+	margin-top: 40px;
+	font-family: 'Poppins', sans-serif;
+}
+.intro{
+	font-size: 13px;
+    font-family: Century Gothic;
+    width: 900px;
+    text-align: center;
+    margin-left: 200px;
+
+  
+}
+.black{
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+}
+.icon{
+	border: solid black 3px;
+	width: 13%;
+	height: 32px;
+	margin-left: 585px;
+	margin-top: 60px;
+	margin-bottom:  50px;
+	display: flex;
+	padding-left: 10px;
+	
+}
+
+.icText{
+	font-size: 17px;
+	padding-left: 10px;
+	font-family: 'Poppins', sans-serif;
+
+}
+#booticon{
+	padding-left: 10px;
+}
+.icon a{
+	text-decoration: none;
+	 color: black;
+}
+.hr{
+	border-bottom: 3px solid #efefef;
+
+}
+.divimage{
+	display: flex;
+	margin-left: 110px;
+	margin-top: 20px;
+}
+.IMG1{
+   width: 380px;
+   height: 245px;
+   padding-left: 20px;
+   padding-top:  10px;
+}
+
+.IMG2{
+   width: 380px;
+   height: 245px;
+   padding-left: 20px;
+   padding-top: 10px;
+}
+.IMG3{
+   width: 380px;
+   height: 245px;
+   padding-left: 20px;
+   padding-top: 10px;
+}
+.h3article{
+
+}
+.p11{
+	padding-left:  170px;	
+	padding-top: 5%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 22px;
+}
+.names{
+	text-align: center;
+	margin-right: 75px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+}
+.paragraph{
+	font-size: 13px;
+	color: #423F3F;
+	
+	
+}
+.socialink{
+    display: flex;
+    list-style-type: none;
+    border-top: 2px solid #efefef;
+    border-bottom: 2px solid #efefef;
+    height: 30px;
+    width: 30%;
+    margin-left: 80px;
+}
+.socialink a{
+	padding-left: 18px;
+	color: black;
+}
+.hr2{
+	border-bottom: 3px solid #efefef;
+	margin-top: 150px;
+}
+#p22{
+	margin-top: 50px;
+}
+.skillh1{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 10px;
+    font-size: 24px;
+    
+    
+}
+.skillh2{
+	font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.skillP{
+	padding-top:10px; 
+	width: 460px;
+	font-family: Century Gothic;
+    font-size: 15px;
+
+}
+#p22{
+	padding-left:  175px;	
+	padding-top: 5%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+.topskill{
+	display: flex;
+}
+.stastikskills{
+	width: 50%;
+}
+#test{	
+	margin-left: 13%;
+	display: flex;
+	
+	height: auto;
+}
+#art1{
+	width: 35%;
+	height: auto;
+	padding-top: 40px;
+}
+#art2{
+	width: 35%;
+	height: auto;
+	padding-left: 100px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection{
+  color: #fff;
+  background: #6665ee;
+}
+.skillstabela{
+  padding: 25px 30px;
+  width: 600px;
+  background: #fff;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
+
+}
+.skillstabela .perqindja{
+  margin: 20px 0;
+}
+.skillstabela .perqindja:first-child{
+  margin-top: 0px;
+}
+.skillstabela .perqindja .emrat{
+  margin-bottom: 4px;
+}
+.skillstabela .perqindja .emrat span{
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+  100%{
+    opacity: 1;
+  }
+}
+.skillstabela .perqindja .progress-line{
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+              border-bottom: 3px solid #efefef;
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.perqindja .progress-line span{
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #6665ee;
+  animation: animate 2s 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+.perqindja .progress-line.html span{
+  width: 90%;
+}
+.perqindja .progress-line.css span{
+  width: 60%;
+}
+.perqindja .progress-line.jquery span{
+  width: 85%;
+}
+.perqindja .progress-line.python span{
+  width: 50%;
+}
+.perqindja .progress-line.mysql span{
+  width: 75%;
+}
+.progress-line span::before{
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line span::after{
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+}
+.progress-line.html span::after{
+  content: "90%";
+}
+.progress-line.css span::after{
+  content: "60%";
+}
+.progress-line.jquery span::after{
+  content: "85%";
+}
+.progress-line.python span::after{
+  content: "50%";
+}
+.progress-line.mysql span::after{
+  content: "75%";
+}
+.hr3{
+	border-bottom: 3px solid #efefef;
+	margin-top: 35px;
+}
+.koha{
+	padding-left: 100px;
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+.treesbar{
+	background-image: url(images/trees1.jpg);
+	width: 100%;
+	margin-top: 80px;
+	opacity: 0.9;
+	
+
+
+}
+.ourservcice{
+	display: flex;
+	margin-left: 130px;
+	margin-top: 40px;
+}
+.webdesign{
+  padding-left: 50px;
+}
+.webdesign p {
+     text-align: center;
+     width: 300px;
+     font-size: 14px;
+     font-family: Century Gothic;
+     padding-top: 20px;
+     color: grey;
+
+}
+.webdesign h3{
+	padding-left: 75px;
+
+}
+.MobileApplication{
+	 padding-left: 50px;
+}
+.MobileApplication p {
+     text-align: center;
+     width: 300px;
+     font-size: 14px;
+     font-family: Century Gothic;
+     padding-top: 20px;
+     color: grey;
+
+}
+.MobileApplication h3{
+	padding-left: 50px;
+}
+.GraphicDesign{
+	padding-left: 50px;
+}
+.GraphicDesign p{
+	 text-align: center;
+     width: 300px;
+     font-size: 14px;
+     font-family: Century Gothic;
+     padding-top: 20px;
+     color: grey;
+
+}
+.GraphicDesign h3{
+     padding-left: 50px;
+}
+#scrolltotop{
+	position: fixed;
+	right: 20px;
+	bottom: 40px;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background: black;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+	color: #ffffff;
+	outline: none;
+	cursor: pointer;
+
+}
+#scrolltotop a{
+	color: white;
+}
+.Awards {
+   text-align: center;
+   display: block;
+   font-size: 50px;
+   
+}
+.AwardsP{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.AwardsP2{
+	font-size: 160px;
+	font-family: verdana;
+
+
+}
+.socials4{
+	border-left: 2px solid grey;
+	margin-left: 40px;
+
+}
+.socials5{
+	border-right: 2px solid grey;
+	margin-left:40px;
+}
+.hr5{
+	border-bottom: 3px solid #efefef;
+	margin-top: 40px;
+}
+.Portofolioimages{
+	margin-left: 230px;
+	margin-top: 80px;
+}
+.portoh3{
+	margin-left: 600px;
+	margin-top: 75px;
+	font-size: 24px;
+}
+#aparat{
+   margin-right: 20px;
+}
+#aparat:hover{
+	opacity: 0.7;
+}
+#w3i{
+   padding-left:5px;
+   
+}
+#w5i{
+padding-left: 20px;
+}
+#w4i{
+	padding-left: 16px;
+}
+#w7i{
+	padding-left: 21px;
+}
+.secondline{
+   padding-bottom: 21px;
+   display: flex;
+}
+.theardline{
+	padding-top: 21px;
+}
+.separator {
+    width: 100%;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    height: 15px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+
+}
+.separator span {
+    line-height: 15px;
+    padding: 0 10px;
+    background: white; 
+    display: inline-block;
+    margin-top: 10px;
+    color: black;
+    font-size: 25px;
+    font-family: Century Gothic;
+    font-weight: lighter;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #f2f2f2; 
+   display: block;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  background-color:;
+  margin-left: 
+}
+
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+
+}
+
+
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+
+.container {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+  padding-top: 25px;
+  
+ 
+
+}
+#fname{
+    font-family: 'Poppins', sans-serif
+    color:grey;
+}
+.sctitle77{
+	font-size: 18px;
+}
+.scpara77{
+	font-size: 13px;
+	margin-top: 12px;
+	
+	font-family: Century Gothic;
+	
+}
+#getcontact{
+      width: 50%;
+      margin-left: 130px;
+      margin-top: 30px;
+}
+.CONTACTKING{
+	display: flex;
+}
+.scpara78{
+	padding-top: 10px;
+	width: 300px;
+	
+	font-size: 13px;
+	font-family: Century Gothic;
+}
+.contactUL span{
+       font-size: 13px;
+	font-family: Century Gothic;
+}
+.contactUL li{
+	list-style-type: none;
+}
+.CONTACTQUEEN {
+	margin-top: 32px;
+	margin-left: 100px;
+	
+}
+.hr0{
+	border-bottom: 3px solid #efefef;
+}
+.footer{
+	display: flex;
+	margin-top: 40px;
+	margin-left: 60px;
+	margin-bottom: 40px;
+
+}
+.titefooter{
+	padding-left: 140px;
+	font-size: 20px;
+}
+.paragraphfooter{
+	padding-left: 135px;
+	padding-top: 27px;
+	font-size: 15px;
+	color: grey;
+
+}
+.ulfooter{
+	padding-left: 140px;
+	list-style-type:  none;
+	padding-top: 27px;
+	font-size: 15px;
+
+}
+.ulfooter a{
+	text-decoration: none;
+	color: grey;
+}
+.ul2footer{
+	padding-left: 100px;
+	list-style-type: none;
+	padding-top: 27px;
+	color: grey;
+	font-size: 15px;
+}
+.ul3footer{
+	padding-left: 100px;
+	list-style-type: none;
+	padding-top: 27px;
+	color: grey;
+	font-size: 15px;
+
+}
